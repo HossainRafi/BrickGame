@@ -53,5 +53,11 @@ function createMatrix(w, h) {
        [0, 2, 0],
        [0, 2, 2],
      ];
-   }
+   } else if (type === "J") {
+     return [
+       [0, 3, 0],
+       [0, 3, 0],
+       [3, 3, 0],
+     ];
+   } 
  } 
