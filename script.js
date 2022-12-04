@@ -138,3 +138,9 @@ function playerDrop() {
   dropCounter = 0;
 }
 
+function playerMove(offset) {
+  player.pos.x += offset;
+  if (collide(arena, player)) {
+    player.pos.x -= offset;
+  }
+}
