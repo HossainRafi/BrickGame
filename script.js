@@ -70,5 +70,11 @@ function createMatrix(w, h) {
        [0, 5, 5],
        [0, 0, 0],
      ];
+   } else if (type === "S") {
+     return [
+       [0, 6, 6],
+       [6, 6, 0],
+       [0, 0, 0],
+     ];
    } 
  } 
