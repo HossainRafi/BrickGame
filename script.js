@@ -1,4 +1,4 @@
-const canvas = document.getElementById("tetris");
+const canvas = document.getElementById("brick");
 const context = canvas.getContext("2d");
 context.scale(20, 20);
 const colors = [
