@@ -10,5 +10,10 @@ function arenaSweep() {
         continue outer;
       }
     }
+    const row = arena.splice(y, 1)[0].fill(0);
+    arena.unshift(row);
+    ++y;
+    player.score += rowCount * 10;
+    rowCount *= 2;
   }
 } 
