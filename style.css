@@ -5,3 +5,7 @@ body {
   font-size: 2em;
   text-align: center;
 }
+canvas {
+  border: solid 0.2em rgb(0, 57, 244);
+  height: 90vh;
+}
