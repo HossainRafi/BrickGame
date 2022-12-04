@@ -64,5 +64,11 @@ function createMatrix(w, h) {
        [4, 4],
        [4, 4],
      ];
+   } else if (type === "Z") {
+     return [
+       [5, 5, 0],
+       [0, 5, 5],
+       [0, 0, 0],
+     ];
    } 
  } 
