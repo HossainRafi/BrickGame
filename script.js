@@ -1,6 +1,16 @@
 const canvas = document.getElementById("tetris");
 const context = canvas.getContext("2d");
 context.scale(20, 20);
+const colors = [
+  null,
+  "#FF0D72",
+  "#0DC2FF",
+  "#0DFF72",
+  "#F538FF",
+  "#FF8E0D",
+  "#FFE138",
+  "#3877FF",
+];
 
 function arenaSweep() {
   let rowCount = 1;
@@ -204,3 +214,4 @@ document.addEventListener("keydown", (event) => {
     playerRotate(1);
   }
 });
+
