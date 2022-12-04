@@ -6,6 +6,6 @@ body {
   text-align: center;
 }
 canvas {
-  border: solid 0.2em rgb(0, 57, 244);
+  border: solid 0.2em #0039f4;
   height: 90vh;
 }
