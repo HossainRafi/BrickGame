@@ -83,4 +83,15 @@ function createMatrix(w, h) {
        [0, 0, 0],
      ];
    }
- } 
+} 
+ 
+function drawMatrix(matrix, offset) {
+  matrix.forEach((row, y) => {
+    row.forEach((value, x) => {
+      if (value !== 0) {
+        context.fillStyle = colors[value];
+        context.fillRect(x + offset.x, y + offset.y, 1, 1);
+      }
+    });
+  });
+}
