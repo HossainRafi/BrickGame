@@ -1,4 +1,4 @@
-## Project Title: [BrickGame](https://jsbrick.netlify.app)
+## Project Name: [BrickGame](https://jsbrick.netlify.app)
 
 ## Tech Stack:
 - HTML
