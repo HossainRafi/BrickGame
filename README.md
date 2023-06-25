@@ -7,5 +7,3 @@
 
 ## Project Image:
 ![app image](https://i.ibb.co/NFKhgLX/brickgame.png)
-
-
